@@ -24,8 +24,8 @@
 #define _SC16IS750_H
 
 
-#include "Stream.h"
-//#include <SerialBase.h>
+//#include "Stream.h"
+#include <SerialBase.h>
 
 //I2C Slaveaddresses                     A1  A0 
 #define SC16IS750_SA0            0x90  /* VDD VDD */
@@ -283,7 +283,7 @@
   */
 //class SC16IS750 {
 //class SC16IS750 : public SerialBase, public Stream {    // Wrong, Serialbase can not be constructed for NC,NC
-class SC16IS750 : public Stream {    
+class SC16IS750 : public mbed::Stream {    
 public:
 
 //  SC16IS750 Register definitions (shifted to align)
