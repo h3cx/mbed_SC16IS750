@@ -1,0 +1,25 @@
+{
+  "name": "mbed_SC16IS750",
+  "version": "0.0.1",
+  "description": "Forked and fixed library from mbed-wim",
+  "keywords": "bridge, i2c, spi, sc16is750, sc16is752",
+  "repository": 
+  {
+    "type": "git",
+    "url": "https://github.com/h3cx/mbed_SC16IS750.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Hector van der Aa",
+      "email": "h3cx@h3cx.dev",
+      "url": "https://github.com/h3cx",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/h3cx/mbed_SC16IS750",
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "*"
+}
