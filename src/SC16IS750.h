@@ -283,7 +283,7 @@
   */
 //class SC16IS750 {
 //class SC16IS750 : public SerialBase, public Stream {    // Wrong, Serialbase can not be constructed for NC,NC
-class SC16IS750 : public Stream {    
+class SC16IS750 : public mbed::Stream {    
 public:
 
 //  SC16IS750 Register definitions (shifted to align)
